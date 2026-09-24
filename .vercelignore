@@ -1,0 +1,8 @@
+# Exclude cache and large files from Vercel/Cloudflare build
+cache/
+.next/cache/
+node_modules/
+*.log
+.git/
+.env.local
+.DS_Store
