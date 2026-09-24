@@ -1,5 +1,7 @@
 import AppDetailsPage from '@/pages/AppDetailsPage';
 
+export const runtime = 'edge';
+
 export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const slug = String(resolvedParams.id || '').replace(/-/g, ' ');

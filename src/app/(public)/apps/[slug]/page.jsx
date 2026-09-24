@@ -1,5 +1,7 @@
 import AllAppsPage from '@/pages/AllAppsPage';
 
+export const runtime = 'edge';
+
 export function generateMetadata({ params }) {
   const category = String(params.slug || '').replace(/-/g, ' ');
   return {
